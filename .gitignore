@@ -1,0 +1,18 @@
+# Node.js modules
+node_modules/
+
+# TypeScript compiled files
+dist/
+
+# Environment-specific files (replace with the actual file name if applicable)
+.env
+.env.*
+
+# macOS specific files
+.DS_Store
+
+# Editor-specific files (e.g., Visual Studio Code)
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
