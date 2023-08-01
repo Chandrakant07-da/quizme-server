@@ -5,7 +5,7 @@ import { ResponseFormat } from "../interface";
 const router: Router = Router();
 (async () => {
   const db = await connectToDB();
-  router.get("/", async (req: Request, res: Response) => {
+  router.get("/subject-list", async (req: Request, res: Response) => {
     const response: ResponseFormat = await getQuizThemeData(db);
     res.send(response);
   });
