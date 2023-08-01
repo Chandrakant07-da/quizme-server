@@ -5,7 +5,6 @@ const USERNAME = process.env._db_user;
 const PASSWORD = process.env._password;
 const CLUSTERNAME = process.env._cluster;
 const DBNAME = process.env._db_name;
-// const url = `mongodb+srv://chandra:test1234@cluster0.qrgzxtx.mongodb.net/`
 const url = `mongodb+srv://${USERNAME}:${PASSWORD}@${CLUSTERNAME}.qrgzxtx.mongodb.net/` // Replace with your MongoDB connection string
 const dbName = `${DBNAME}`; // Replace with your database name
 
